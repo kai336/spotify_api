@@ -4,7 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from sklearn.cluster import KMeans
 
-USER_ID="kb4i3142gp4ku5jbjs9d9j119"
+USER_ID="your user id"
 
 def gettrackid(results, trackids):
     for idx, item in enumerate(results['items']):
